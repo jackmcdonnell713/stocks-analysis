@@ -19,8 +19,7 @@ Looking at the two tables of data below, I color coded stocks with positive retu
 ### Execution Speed for Original vs. Refactored Code
 Our final task in the module and the project is to see how fast the code took to run when we originally scrpited it vs. how fast it was able to run with the edits and refactoring the challenge had us submit to it.  Before refactoring, when I would run the code through either 2017 or 2018's data the execution time varied between .67 and .69 seconds which doesn't seem slow at all unless you compare it to the image of our 2018 results below where it was able to run in roughly .09 to .1 seconds of a second!  More than half a second faster on an execution time all taking place in less than a second is quite significant when one considers the application of having something run half a second quicker like maybe app and touch sensitivity on smart phones; that would be pretty noticeable to most people.  The project's purpose of showing us how refactoring simple code like changeing the Ticker output arrays in our script to grab information off of Index numbers vs. climbing through the whole loop with help categorize and access the information in the corresponding cells that much faster.  This segment of code below that indexed the various ticker titles of the stocks I believe was the driving force behind the faster exection speed vs. the original module code that did not include it.
 
-'''
-tickerIndex = 0
+'''tickerIndex = 0
 
     Dim tickerVolumes(12) As Long
     Dim tickerStartingPrices(12) As Single
