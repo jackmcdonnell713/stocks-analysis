@@ -43,7 +43,11 @@ Our final task in the module and the project is to see how fast the code took to
 ## Summary
 
 
-### Advantages vs. Disadvantages of Refactoring Code
+### Advantages vs. Disadvantages of Refactoring Code (Module vs. Refactored VBA Script)
+
+Some clear advantages of Refactoring your code are: A) Refactoring code could create a more efficient script that allows it to be executed faster which is considerably useful if you have a massive amount of data to pool from where waiting a long time for your code to produce the results you want could be quite tedious and, B) It teaches the coder to save time on their own writing where if you learn the tricks of refactoring and what kind of tools can be used within a language to help make the code more precise and neat than they will end up saving time in the future when they no longert have to repeat large amount of code lines because they are unaware of how to simplify it!
+
+
 
 ### Advantages vs. Disadvantages of Original vs. Refactored VBA Script
 
