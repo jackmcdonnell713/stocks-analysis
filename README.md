@@ -48,14 +48,14 @@ Our final task in the module and the project is to see how fast the code took to
 Some clear advantages of Refactoring your code are: A) Refactoring code could create a more efficient script that allows it to be executed faster which is considerably useful if you have a massive amount of data to pool from where waiting a long time for your code to produce the results you want could be quite tedious and, B) It teaches the coder to save time on their own writing where if you learn the tricks of refactoring and what kind of tools can be used within a language to help make the code more precise and neat than they will end up saving time in the future when they no longert have to repeat large amount of code lines because they are unaware of how to simplify it!
 
 The main advantage for the the refactored VBA scrpit as far as I understand was this piece of code in the original version 
+
 '''
-If Cells(i, 1).Value = ticker
+    If Cells(i, 1).Value = ticker
 '''
 where-in without that the For loop would have to run and check the actual variable/value inputed for each cell before inputting the next subsequent command vs. being able to check the tickerIndex number immediately from our Index inclusion with the codeline.
 
 '''
-If Cells(i, 1).Value = tickers(tickerIndex)
-
+    If Cells(i, 1).Value = tickers(tickerIndex)
 '''
 Adding a way to categorize and isolate the data into "refractored" groups like this can help the computer simplify an otherwise slightly repetitive and disjointed command which in turn makes things go faster!  
 The only disadvantage I can consider when writing the refractored code was simply the slight room for error you can have simply making an Index function for the tickers where was with the original code you can simply begin writing your For loop though this disadvantage seems relatively miniscule when you cconsider the ease of creating the Index in the first place and time/energy it could save you on future porjects if done correctly!
