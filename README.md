@@ -52,7 +52,9 @@ The main advantage for the the refactored VBA scrpit as far as I understand was 
 '''
     If Cells(i, 1).Value = ticker
 '''
-where-in without that the For loop would have to run and check the actual variable/value inputed for each cell before inputting the next subsequent command vs. being able to check the tickerIndex number immediately from our Index inclusion with the codeline.
+
+
+Where-as without that the For loop would have to run and check the actual variable/value inputed for each cell before inputting the next subsequent command vs. being able to check the tickerIndex number immediately from our Index inclusion with the codeline.
 
 '''
     If Cells(i, 1).Value = tickers(tickerIndex)
